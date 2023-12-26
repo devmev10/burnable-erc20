@@ -12,5 +12,9 @@ variables -
     string public symbol;
     uint public decimals;
 
+    //mappings
+    mapping(address => uint) public balances;
+
     //functions
+    function balanceOf() public view returns (uint) {}
 }
