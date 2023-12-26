@@ -12,6 +12,9 @@ variables -
     string public symbol = "BTK";
     uint public decimals = 18;
 
+    //constructor
+    constructor() {}
+
     //mappings
     mapping(address => uint) public balances;
 
