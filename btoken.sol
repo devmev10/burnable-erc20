@@ -8,13 +8,16 @@ variables -
 2. symbol
 3. decimals
 */
-    string public name;
-    string public symbol;
-    uint public decimals;
+    string public name = "BTOKEN";
+    string public symbol = "BTK";
+    uint public decimals = 18;
 
     //mappings
     mapping(address => uint) public balances;
 
-    //functions
+    //functions (read)
     function balanceOf() public view returns (uint) {}
+
+    // functions (write)
+    function transfer() public view {}
 }
