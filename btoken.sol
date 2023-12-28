@@ -11,6 +11,7 @@ variables -
     string public name = "BTOKEN";
     string public symbol = "BTK";
     uint public decimals = 18;
+    uint public totalSupply;
 
     //constructor
     constructor() {}
