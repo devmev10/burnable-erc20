@@ -13,7 +13,7 @@ variables -
     uint public decimals = 18;
     uint public totalSupply;
 
-    //constructor
+    //The constructor
     constructor() {}
 
     //mapping
