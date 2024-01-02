@@ -16,7 +16,7 @@ variables -
     //The constructor
     constructor() {}
 
-    //mapping
+    //mappings
     mapping(address => uint) public balances;
 
     //functions (read)
