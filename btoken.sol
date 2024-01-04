@@ -6,7 +6,7 @@ contract Btoken {
 variables - 
 1. name
 2. symbol
-3. decimal
+3. decimals
 */
     string public name = "BTOKEN";
     string public symbol = "BTK";
